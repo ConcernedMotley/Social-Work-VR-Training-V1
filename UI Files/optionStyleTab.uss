@@ -1,0 +1,59 @@
+:root {
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.timeText {
+    -unity-text-align: middle-center;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 72px;
+}
+
+.buttonGroup {
+    width: 200px;
+    height: 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.elementDiv {
+    background-color: rgba(0, 0, 0, 0.93);
+    align-self: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.button {
+    width: 46%;
+    height: 56px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    -unity-font-style: normal;
+    color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+}
+
+.button:hover {
+    width: 46%;
+    height: 56px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    scale: 1.03 1.03 1.03;
+    background-color: rgba(148, 197, 255, 0.84);
+    color: rgb(255, 255, 255);
+    transition-duration: 0.2s;
+}
+
+.debriefText {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    white-space: normal;
+}

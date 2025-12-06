@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Files/optionStyleTab.uss?fileID=7433441132597879392&amp;guid=2f567b918cd39394da384bcf09bf8eb1&amp;type=3#optionStyleTab" />
+    <ui:VisualElement name="mainBox" class="elementDiv buttonGroup" style="flex-grow: 1; flex-direction: column; height: auto; flex-wrap: nowrap; justify-content: flex-start; margin-top: 0; margin-bottom: 0%; padding-top: 13px;">
+        <ui:Button text="Start" name="StartButton" class="button" style="margin-top: 16px; margin-right: 16px; margin-bottom: 16px; margin-left: 16px; width: 70%;" />
+        <ui:Button text="Quit" name="QuitButton" parse-escape-sequences="false" class="button" style="margin-top: 16px; margin-right: 16px; margin-bottom: 16px; margin-left: 16px; width: 70%;" />
+    </ui:VisualElement>
+</ui:UXML>

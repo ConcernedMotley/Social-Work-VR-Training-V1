@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Prefabs/optionStyleTab.uss?fileID=7433441132597879392&amp;guid=2f567b918cd39394da384bcf09bf8eb1&amp;type=3" />
+    <ui:VisualElement name="elementDivBox" class="elementDiv" style="flex-grow: 1; width: 100%; height: 120px; background-color: rgba(0, 0, 0, 0.98);">
+        <ui:Label text="Please select a response." name="timeTextLabel" class="timeText" style="height: 64px; font-size: 24px;" />
+        <ui:VisualElement name="buttonGroupBox" class="buttonGroup" style="flex-grow: 1; width: 100%; height: 120px; align-content: flex-start; align-items: stretch; justify-content: center;">
+            <ui:Button text="Button" name="ButtonA" class="button" />
+            <ui:Button text="Button" name="ButtonB" class="button" />
+            <ui:Button text="Button" name="ButtonC" class="button" />
+            <ui:Button text="Button" name="ButtonD" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
